@@ -1,0 +1,11 @@
+language: go
+
+go:
+  - 1.3 # Debian jessie
+  - 1.7 # Debian stretch
+  - tip
+
+addons:
+  apt:
+    packages:
+    - librsync-dev
